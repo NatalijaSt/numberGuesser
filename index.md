@@ -9,6 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>game function</title>
     <style>
+        body{
+        margin: 0 auto;
+        }
         input[type=number] {
             border-radius: 4px;
             width: 150px;
