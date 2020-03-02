@@ -13,10 +13,12 @@
 
  
  * This is a photo of a game in progress (for desktop screen size).
+ 
    ![photoOfAGame](./screenshots/izgledProjektaGit.png)
 
  
  * This is a photo of a game in progress (for smaller screen size).
+ 
   ![photoOfASmallScreenGame](./screenshots/slikaMaliEkranGit.png)
 
  
