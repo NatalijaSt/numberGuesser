@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser Game</title>
+    <link rel="stylesheet" type="text/css" href="gameStyle.css">
+</head>
+<body onload="init()">
+    <div id="container">
+       
+        <div id="title">
+            <h2>Guess a number between 1 and 9 and click on the button (3 guesses)</h2>
+            <h3>You'll score 10 points for every correct number you guess</h3>
+            <hr>
+        </div>
+
+        <div id="wrap">
+            <div id="odabir">
+                <div id="inputBr">
+
+                    <br><input type="number" id="noviB"><br><br><br>
+
+                    <p id="kojiB">Enter a number between 1 and 9 !</p>
+                </div>
+                <div id="dugmici">
+                    <input type="button" id="dugmence" value="click">
+                    <input type="button" id="again" value="try again">
+                </div>
+            </div>
+            <hr>
+            <div id="rezultat">
+                <div id="praviBroj">
+                    <p>
+                        <span id="yesNo" type="text">---</span>
+                        IT WAS
+                        <span id="pogodjenB" type="text">-</span>
+                    </p>
+                </div>
+                <hr>
+                <div id="pokusaji">
+                    <p>
+                        <span id="attempt" type="text">3</span>
+                        GUESSES LEFT
+                    </p>
+                </div>
+                <hr>
+                <div id="score">
+                    <p>
+                        SCORE
+                        <input id="rez" type="text" value="00" readonly>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="numberGuesser.js"></script>
+</body>
+</html>
